@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Outfit:wght@100..900&family=Story+Script&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: 'Story Script', sans-serif;
+}
