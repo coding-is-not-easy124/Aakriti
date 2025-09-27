@@ -11,7 +11,7 @@ export const generateImage = async (req, res) => {
             return res.json({ success: false, message: 'Please fill all the fields' })
         }
 
-        if(user.creditBalance === 0 || userModel.creditBalance < 0){
+        if(user.creditBalance === 0 || user.creditBalance < 0){
             return res.json({ success: false, message: 'No Credit Balance', creditBalance: user.creditBalance })
         }
 
